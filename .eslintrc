@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "semi": [2, "never"],
+    "import/extensions": ["always"],
+    "import/no-unresolved": ["always"],
+    "react/jsx-filename-extension": ["never"],
+    "import/prefer-default-export": [1, "always"],
+    "max-len": ["error", { "code": 135 }]
+  },
+  // Globals can change if your coding for the web (or not using react, jest etc)
+  "globals": {
+    "jest": true,
+    "StyleSheet": true,
+    "navigator": true,
+    "font": true,
+    "test": true,
+    "expect": true
+  }
+}
